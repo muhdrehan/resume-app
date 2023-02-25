@@ -1,23 +1,21 @@
 export const personalData = {
-	name: "Joe Doe",
-	role: "Software Engineer",
+	name: "Muhammad Rehan",
+	role: "Solution Architect",
 	education: [
-		"Bachelor of Science in Computer Science, University of Oxford(2015-2019)",
-		"Master of Science in Artificial Intelligence, Imperial College London (2019-2021)",
+		"Bachelor of Science in Electronics Engineering, CUST (Formaly know MAJU)(2010)",
+		"Web3.0 and Metaverse Program, PIAIC                                     (2022)",
 	],
 	contactLinks: [
-		"mailto:emailto:time2code@gmail.com",
-		"https://twitter.com/time_tocode",
-		"https://linkedin.com/aliciarodriguezLi",
-		"https://medium.com/@time2code.ali",
+		"mailto:emailto:muhd.rehan@hotmail.com",
+		"https://linkedin.com/in/edison-protus",
 	],
 };
 
 export const aboutMe = {
 	title: "About Me",
 	body: [
-		"As a highly motivated and driven individual with a passion for making a positive impact, I have a unique blend of technical and interpersonal skills, thanks to my background in computer science. I am able to tackle complex problems with ease, and I never lose sight of my ultimate goal, even when facing challenges.",
-		"When I'm not working, I love hiking, reading, and spending time with my friends and family. I believe that my determination, can-do attitude, and hard work make me a true asset to any team.",
+		"As a highly motivated and driven individual with a passion for making a positive impact, I have a unique blend of technical and interpersonal skills, thanks to my background in Telco industry. I am able to tackle complex problems with ease, and I never lose sight of my ultimate goal, even when facing challenges.",
+		"When I'm not working, I love Me-time, reading, and spending time with my Daughter. I believe that my determination, can-do attitude, and hard work make me a true asset to any Organization.",
 	],
 };
 
@@ -29,14 +27,14 @@ export const skills = {
 		{ icon: "⽓", text: "Teamwork" },
 		{ icon: "💡", text: "Creative Problem Solving" },
 		{ icon: "⌛️", text: "Time management" },
-	],
+		],
 	hard: [
-		{ icon: "💻", text: "Python" },
+		{ icon: "💻", text: "JavaScript" },
 		{ icon: "ʦ", text: "TypeScript" },
-		{ icon: "🚀", text: "React" },
+		{ icon: "🚀", text: "Tailwind" },
 		{ icon: "💾", text: "SQL" },
-		{ icon: "💾", text: "noSQL" },
-		{ icon: "📈", text: "Data Structures and Algorithms" },
+		{ icon: "💾", text: "Solution Designing" },
+		{ icon: "📈", text: "Linux/Unix" },
 	],
 };
 
@@ -44,23 +42,29 @@ export const professionalData = {
 	title: "Professional Experience",
 	experiences: [
 		{
-			role: "Data Scientist, Acme Inc. (2021-Present)",
+			role: "Solution Architect (Apr 2020 - Present)",
 			description:
-				"Design and implement machine learning models to analyze large datasets and drive business decisions. Collaborate with cross-functional teams to develop and launch new products and features. Provide technical guidance and mentorship to junior data scientists. Conduct regular presentations to stakeholders on the findings and insights generated from data analysis.",
-			current: true,
+				"Design and implementing planet scale Solutions accordingly to the business requirements. Collaborating with cross-functional teams to develop and launch new products and features. Provide technical guidance and mentorship to junior developers. Conduct regular presentations to stakeholders on the findings and insights generated from product POCs ",
+				current: true,
 		},
 
 		{
-			role: "Machine Learning Engineer, XYZ Corp. (2019-2021)",
+			role: "Deployment and Operational Engineer, Cisco (formaly known IMI Mobiles) (May 2019- Apr 2020)",
 			description:
-				"Designed and implemented advanced machine learning algorithms to improve predictive accuracy and performance. Built and maintained scalable machine learning infrastructure using cloud computing platforms. Conducted data exploratory analysis to identify potential use cases and opportunities. Participated in regular code reviews to maintain high quality standards.",
+				"Deployed & house keeping of DPDP for VAS & digital Services which helped to improve producitivity & performance of Telenor Pakistan VAS & Digital services. Built and maintained scalable machine learning infrastructure using cloud computing platforms. Participated in regular code reviews to maintain high quality standards.",
 			current: false,
 		},
 		{
-			role: "Machine Learning Engineer, ABX Corp. (2020-2021)",
+			role: "Airport Operational Control Center & Support Engineer, System Limiteds (May 2017- June 2018)",
 			description:
-				"Designed and implemented advanced machine learning algorithms to improve predictive accuracy and performance. Built and maintained scalable machine learning infrastructure using cloud computing platforms. Conducted data exploratory analysis to identify potential use cases and opportunities. Participated in regular code reviews to maintain high quality standards.",
+				"Worked as Data Center support engineer. Installed & done the housekeeping of virtual servers, Tape library. Defining new policies for newly added users to improve productivity & performance.",
 			current: false,
+		},
+		{
+			role: "NOC Core Support Expert, Jazz (formaly know Mobilink) (Apr 2012- Mar 2013)",
+			description:
+				"Worked as NOC Core Support Expert L2 engineer. Major responsibilities includes Issue identification & resolution of tickets for MMSC, SMSC, ACE, WapGW, Jazz Cash, CRBT & EVC. Performed ATPs of SMSC & RBTs platforms.",
+				current: false,
 		},
 	],
 };
